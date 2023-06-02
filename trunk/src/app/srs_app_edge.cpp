@@ -31,7 +31,7 @@ using namespace std;
 #include <srs_app_rtmp_conn.hpp>
 
 // when edge timeout, retry next.
-#define SRS_EDGE_INGESTER_TIMEOUT (5 * SRS_UTIME_SECONDS)
+#define SRS_EDGE_INGESTER_TIMEOUT (15 * SRS_UTIME_SECONDS)
 
 // when edge error, wait for quit
 #define SRS_EDGE_FORWARDER_TIMEOUT (150 * SRS_UTIME_MILLISECONDS)
